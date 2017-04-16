@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=intervalMillis
+comment0.target=PiWindSpeedSensor(long)
+comment1.params=
+comment1.target=WindSpeed\ getWindSpeed()
+comment1.text=\n\ Gets\ the\ wind\ speed\ as\ the\ number\ of\ times\ the\ anemometer\ has\ completed\ a\ full\ circle\ since\ the\ last\ time\n\ something\ asked\ for\ the\ wind\ speed.\n\ {@link\ WindSpeed}\ handles\ most\ of\ the\ maths.\n\ @param\ The\ time\ that's\ passed\ since\ we\ were\ last\ asked\ for\ the\ wind\ speed,\ in\ milliseconds.\n\ @return\ The\ wind\ speed.\n
+comment2.params=
+comment2.target=void\ onTriggered()
+comment2.text=\n\ Called\ when\ the\ anemometer\ completes\ half\ a\ turn.\n\ We\ keep\ count\ by\ incrementing\ {@link\ \#count}.\n
+comment3.params=millis
+comment3.target=void\ onInterval(long)
+numComments=4

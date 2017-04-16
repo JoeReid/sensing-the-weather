@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=halfRevolutions\ timeMillis
+comment0.target=WindSpeed(int,\ long)
+comment0.text=\n\ The\ sole\ constructor\ for\ a\ {@link\ WindSpeed}\ object.\n\n\ @param\ revolutions\ the\ number\ of\ revolutions\ of\ the\ wind\ sensor\ over\ the\n\ provided\ time\ period\ with\ fractional\ accuracy.\n\n\ @param\ circleRadiusCm\ the\ radius\ of\ the\ arc\ drawn\ by\ the\ arms\ of\ the\n\ wind\ speed\ sensor\ hardware.\n\n\ @param\ timeMillis\ the\ time\ period\ that\ the\ revolutions\ value\ was\ measured\n\ over\n
+comment1.params=
+comment1.target=double\ inCentimetersPerMillisecond()
+comment1.text=\n\ A\ method\ for\ getting\ the\ wind\ speed\ value\ as\ represented\ in\ centimeters\ per\ millisecond.\n\ \n\ @return\ The\ wind\ speed\ measured\ in\ centimeters\ per\ millisecond.\n
+comment2.params=
+comment2.target=double\ inKilometersPerHour()
+comment2.text=\n\ A\ method\ for\ getting\ the\ wind\ speed\ value\ as\ represented\ in\ kilometers\n\ per\ hour.\n\n\ @return\ The\ wind\ speed\ measured\ in\ kilometers\ per\ hour.\n
+numComments=3

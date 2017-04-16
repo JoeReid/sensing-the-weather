@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=halfRevolutions\ timeMillis
+comment0.target=WindSpeed(int,\ long)
+comment0.text=\n\ The\ sole\ constructor\ for\ a\ {@link\ WindSpeed}\ object.\n\n\ @param\ halfRevolutions\ the\ number\ of\ revolutions\ of\ the\ wind\ sensor.\n\n\ @param\ timeMillis\ the\ amount\ of\ time\ that's\ passed.\n
+comment1.params=
+comment1.target=double\ inHalfRevolutions()
+comment1.text=\n\ A\ method\ for\ getting\ the\ number\ of\ half\ revolutions\ that\ were\ recorded\n\ in\ this\ wind\ speed.\n
+numComments=2

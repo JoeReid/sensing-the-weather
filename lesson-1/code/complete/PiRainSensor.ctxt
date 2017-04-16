@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PiRainSensor()
+comment0.text=\n\ The\ constructor.\n\ Gets\ the\ RainMeter\ object\ (getInstance),\ and\ asks\ it\ to\ tell\ us\ when\ there\ is\ rain.\n
+comment1.params=
+comment1.target=void\ resetCounter()
+comment1.text=\n\ Resets\ the\ counter,\ and\ the\ last\ collection\ time.\n
+comment2.params=
+comment2.target=double\ getRainfall()
+comment2.text=\n\ Get\ the\ amount\ of\ rainfall\ since\ we\ last\ reset\ the\ counter.\n
+comment3.params=
+comment3.target=void\ onTriggered()
+comment3.text=\n\ Called\ when\ the\ rain\ meter\ records\ 0.2794mm\ of\ rainfall.\n
+numComments=4

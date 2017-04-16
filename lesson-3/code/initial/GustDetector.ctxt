@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GustDetector()
+comment0.text=\n\ The\ constructor.\n\ Sets\ up\ the\ sensor.\n
+comment1.params=
+comment1.target=org.kentuni.WeatherStation.Units.WindSpeed[]\ getReadings()
+comment1.text=\n\ Runs\ for\ a\ while,\ asking\ the\ wind\ sensor\ for\ readings\ every\ few\ seconds,\ and\ returns\ an\ array\ of\ wind\ speeds.\n\ @throws\ InterruptedException,\ Required\ so\ that\ "Thread.sleep"\ is\ handled\ correctly.\n
+comment2.params=
+comment2.target=org.kentuni.WeatherStation.Units.WindSpeed\ getGust()
+numComments=3
