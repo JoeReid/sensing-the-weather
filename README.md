@@ -1,4 +1,4 @@
-# sensing-the-weather
+# Sensing The Weather
 
 ## Setup
 
