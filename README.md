@@ -4,6 +4,6 @@
 
 Run the following commands from your weather station Pi:
 1. ```cd /usr/share/bluej/userlib```
-2. ```wget 'https://bluej.org/raspberrypi/WeatherStation/dependencies.zip'```
-3. ```tar -xf dependencies.zip```
-4. ```rm dependencies.zip```
+2. ```sudo wget 'https://bluej.org/raspberrypi/WeatherStation/dependencies.zip'```
+3. ```sudo unzip dependencies.zip```
+4. ```sudo rm dependencies.zip```
