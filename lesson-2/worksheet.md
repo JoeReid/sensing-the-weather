@@ -20,7 +20,7 @@ So let's start collecting data from the sensor!
 
 ## Setup
 
-Open the BlueJ project found [here](https://bluej.org/raspberrypi/WeatherStation/lesson-1/initial.jar).
+Open the BlueJ project found [here](https://bluej.org/raspberrypi/WeatherStation/lesson-2/initial.jar).
 
 Because the anemometer measures wind speed, we need to deal with time.
 To keep things simple, the *PiWindSpeedSensor* class is given a time when it is first created, and then presumes that it's been that long since it was last called.
