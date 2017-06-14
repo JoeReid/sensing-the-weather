@@ -117,7 +117,7 @@ Once we have this, we can calculate the speed in centimeters per millisecond. Ov
 We also have to update our *onInterval* method to use our new calculations.
 We can do this by changing *inHalfRevolutions()* to *inCentimetersPerSecond()*, like so:
 
-  ```
+  ```java
   public static void onInterval(long millis) throws InterruptedException {
       PiWindSpeedSensor sensor = new PiWindSpeedSensor(millis);
       while(true) {
