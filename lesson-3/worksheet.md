@@ -32,7 +32,7 @@ We need to check the wind speed every 5 seconds (5000 milliseconds) for 20 secon
 We will also need access to a wind sensor, so we should store one as a field and create it in the constructor:
 
   ```java
-  private PiWindSpeedSensor sensor;
+  private WindSpeedSensor sensor;
   
   /**
    * The constructor.
