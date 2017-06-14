@@ -23,7 +23,7 @@ public class WindSpeed {
         // 2πr
         double circleCircumferenceCm = 2 * Math.PI * CIRCLE_RADIUS_CM;
 
-        cm = CALIBRATION_FACTOR * circleCircumferenceCm * revolutions;
+        cm = circleCircumferenceCm * revolutions;
     }
     
     /**
