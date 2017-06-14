@@ -174,9 +174,9 @@ The [datasheet](https://www.argentdata.com/files/80422_datasheet.pdf) says that 
   public static final double CALIBRATION_FACTOR = 1.18;
   ```
 
-Your final code should now look something like [this](https://bluej.org/raspberrypi/WeatherStation/complete.zip).
+Your final code should now look something like [this](https://bluej.org/raspberrypi/WeatherStation/lesson-2/complete.jar).
 
-1. Re-run the code and this time you should get a value closer to 2.4:
+Re-run the code and this time you should get a value closer to 2.4:
 
 ## Summary
 
