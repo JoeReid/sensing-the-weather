@@ -42,7 +42,7 @@ Make sure your rain gauge is connected to your Weather Station, then turn it on.
 
 First, we need to store the size of the bucket as a constant at the top of the class, and keep a counter for how many times the bucket has tipped.
   ```java
-  public class PiRainSensor implements RainSensor, RainMeterListener {
+  public class PiRainSensor implements RainMeterListener {
 
   /**
 	* The amount of rainfall the rain sensor bucket manages to catch.
