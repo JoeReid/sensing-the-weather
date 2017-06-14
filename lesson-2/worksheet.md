@@ -132,7 +132,7 @@ public static final double MILLIS_IN_AN_HOUR = 1000 * 60 * 60;
 In order to convert our units we'll need to:
 
 - Convert cm -> km by **dividing** the distance by the number of cm in 1km
-- Convert milliseconds -> hours by **multiplying** the speed by the number of seconds in 1 hour
+- Convert milliseconds -> hours by **multiplying** the speed by the number of milliseconds in 1 hour
 
 
 Create a new method, *inKilometersPerHour*, that will use these new calculations.
