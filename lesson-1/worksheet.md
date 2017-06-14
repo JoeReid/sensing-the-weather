@@ -40,7 +40,6 @@ Make sure your rain gauge is connected to your Weather Station, then turn it on.
 1. Open the BlueJ project found [here](https://bluej.org/raspberrypi/WeatherStation/lesson-1/initial.jar).
 1. Open the PiRainSensor class.
 
-We will need to store the size of the bucket as a constant (hence the capitals), and a counter for how many times the bucket has tipped.
 First, we need to store the size of the bucket as a constant at the top of the class, and keep a counter for how many times the bucket has tipped.
   ```java
   public class PiRainSensor implements RainSensor, RainMeterListener {
@@ -56,6 +55,7 @@ First, we need to store the size of the bucket as a constant at the top of the c
   private int count = 0;
 
   ```
+Note that we use **capitals** for the bucket size. This is because it is a **constant**; that is, it doesn't ever change. The bucket will always be able to hold exactly 0.2794mm of water, however the number of times the bucket has tipped will change over time, so **count** is kept lowercase.
 
 There is a piece of code in the 
 constructor of the class that makes sure that the *onTriggered* method is run every time the bucket tips.
