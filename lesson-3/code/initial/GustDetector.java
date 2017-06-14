@@ -1,6 +1,6 @@
 import org.bluej.WeatherStation.Implementations.Factory;
 import org.bluej.WeatherStation.Implementations.Platform;
-import org.bluej.WeatherStation.Implementations.PiWindSpeedSensor;
+import org.bluej.WeatherStation.Implementations.WindSpeedSensor;
 import org.bluej.WeatherStation.Units.WindSpeed;
 
 public class GustDetector {
