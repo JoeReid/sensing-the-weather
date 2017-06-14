@@ -114,6 +114,20 @@ Once we have this, we can calculate the speed in centimeters per millisecond. Ov
   }
   
   ```
+We also have to update our *onInterval* method to use our new calculations.
+We can do this by changing *inHalfRevolutions()* to *inCentimetersPerSecond()*, like so:
+
+  ```
+  public static void onInterval(long millis) throws InterruptedException {
+      PiWindSpeedSensor sensor = new PiWindSpeedSensor(millis);
+      while(true) {
+          Thread.sleep(millis);
+          WindSpeed speed = sensor.getWindSpeed();
+          System.out.println(speed.inCentimetersPerSecond());
+      }
+  }
+  ```
+  
 When this is done, you should be able to test it as described above.
 
 A solution can be found [here](code/windspeed_simple.md).
@@ -136,6 +150,7 @@ In order to convert our units we'll need to:
 
 
 Create a new method, *inKilometersPerHour*, that will use these new calculations.
+Like we did before, we will have to update the *onInterval* method.
 
 ## Calibration
 
