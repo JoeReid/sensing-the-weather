@@ -1,5 +1,7 @@
-import org.kentuni.WeatherStation.Implementations.PiWindSpeedSensor;
-import org.kentuni.WeatherStation.Units.WindSpeed;
+import org.bluej.WeatherStation.Implementations.Factory;
+import org.bluej.WeatherStation.Implementations.Platform;
+import org.bluej.WeatherStation.Implementations.PiWindSpeedSensor;
+import org.bluej.WeatherStation.Units.WindSpeed;
 
 public class GustDetector {
 

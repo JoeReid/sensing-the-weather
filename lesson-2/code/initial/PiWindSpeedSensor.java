@@ -1,6 +1,6 @@
-import org.kentuni.WeatherStation.Drivers.Anemometer;
-import org.kentuni.WeatherStation.Drivers.AnemometerListener;
-import org.kentuni.WeatherStation.Sensors.WindSpeedSensor;
+import org.bluej.WeatherStation.Drivers.Anemometer;
+import org.bluej.WeatherStation.Drivers.AnemometerListener;
+import org.bluej.WeatherStation.Sensors.WindSpeedSensor;
 
 
 public class PiWindSpeedSensor implements AnemometerListener {

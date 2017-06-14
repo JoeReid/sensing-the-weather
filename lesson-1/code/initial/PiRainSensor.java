@@ -1,7 +1,7 @@
-import org.kentuni.WeatherStation.Drivers.RainMeter;
-import org.kentuni.WeatherStation.Drivers.RainMeterListener;
-import org.kentuni.WeatherStation.Sensors.RainSensor;
-import org.kentuni.WeatherStation.Units.RainFall;
+import org.bluej.WeatherStation.Drivers.RainMeter;
+import org.bluej.WeatherStation.Drivers.RainMeterListener;
+import org.bluej.WeatherStation.Sensors.RainSensor;
+import org.bluej.WeatherStation.Units.RainFall;
 
 public class PiRainSensor implements RainMeterListener {
 
