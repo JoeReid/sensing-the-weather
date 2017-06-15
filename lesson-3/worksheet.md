@@ -116,7 +116,7 @@ So the results for each data set are:
 
 (If you have studied Boolean logic, you might notice that these examples form the truth table for the logical operator 'AND'; for the gust to be true, both condition 1 AND condition 2 need to be true.)
 
-## Adding a gust detection function
+## Adding a gust detection method
 
 Now that we have a well-defined logical way of testing whether a gust has occurred, our final job is to add a method we can call to check whether a gust occurred in the last 20 seconds.
 
