@@ -36,6 +36,7 @@ public class GustDetector {
         for (int i = 0; i < ITERATIONS; i++) {
             Thread.sleep(INTERVAL_MILLIS);
             windSpeeds[i] = sensor.getWindSpeed();
+            System.out.println(windSpeeds[i]);
         }
 
         return windSpeeds;
